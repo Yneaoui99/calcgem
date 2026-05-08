@@ -1,12 +1,14 @@
 <script setup>
 import { RouterView, RouterLink } from 'vue-router'
 import NavBar from './components/NavBar.vue'
+import CookieBanner from './components/CookieBanner.vue'
 </script>
 
 <template>
   <div class="min-h-screen bg-[#0d0f1a]">
     <NavBar />
     <RouterView />
+    <CookieBanner />
     <footer class="border-t border-slate-800 mt-16 py-10 px-4">
       <div class="max-w-5xl mx-auto">
         <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
