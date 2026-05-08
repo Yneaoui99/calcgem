@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { font-family: 'Inter', system-ui, sans-serif; scroll-behavior: smooth; }
+  body { @apply antialiased bg-[#0d0f1a] text-slate-100; }
+}
+
+@layer components {
+  .input-field {
+    @apply w-full px-4 py-3 rounded-xl border-2 border-slate-700 bg-slate-800 focus:outline-none focus:border-indigo-500 transition-colors text-white font-medium text-lg placeholder-slate-500;
+  }
+  .unit-btn {
+    @apply px-5 py-2 rounded-lg font-semibold text-sm transition-all duration-200;
+  }
+  .unit-btn-active {
+    @apply bg-indigo-600 text-white shadow-md shadow-indigo-900;
+  }
+  .unit-btn-inactive {
+    @apply bg-slate-800 text-slate-400 hover:bg-slate-700 border border-slate-700;
+  }
+  .nav-dropdown {
+    @apply absolute top-full left-0 mt-1 bg-slate-900 rounded-2xl shadow-2xl shadow-black/60 border border-slate-700 py-2 min-w-[220px] z-50;
+  }
+  .nav-dropdown-item {
+    @apply flex items-center gap-3 px-4 py-2.5 hover:bg-slate-800 transition-colors text-sm text-slate-300 font-medium cursor-pointer;
+  }
+  .badge {
+    @apply inline-flex items-center text-xs font-bold px-2 py-0.5 rounded-full;
+  }
+}
+
+/* ============================================================
+   DARK THEME: Result card color overrides
+   All calculator result cards sit inside .bg-slate-900 from
+   CalculatorLayout. Override every light-colored class here
+   so individual calculator files need no changes.
+   ============================================================ */
+
+/* — Emerald — */
+.bg-slate-900 .bg-emerald-50  { background-color: rgba(6,78,59,0.35) !important; }
+.bg-slate-900 .border-emerald-200 { border-color: rgba(52,211,153,0.22) !important; }
+.bg-slate-900 .text-emerald-700 { color: rgb(52,211,153) !important; }
+.bg-slate-900 .text-emerald-600 { color: rgb(110,231,183) !important; }
+
+/* — Blue — */
+.bg-slate-900 .bg-blue-50  { background-color: rgba(29,78,216,0.22) !important; }
+.bg-slate-900 .border-blue-200 { border-color: rgba(96,165,250,0.22) !important; }
+.bg-slate-900 .text-blue-700 { color: rgb(96,165,250) !important; }
+.bg-slate-900 .text-blue-600 { color: rgb(147,197,253) !important; }
+.bg-slate-900 .text-blue-500 { color: rgb(96,165,250) !important; }
+
+/* — Neutral Slate (result cards) — */
+.bg-slate-900 .bg-slate-50  { background-color: rgb(30,41,59) !important; }
+.bg-slate-900 .bg-slate-100 { background-color: rgb(30,41,59) !important; }
+.bg-slate-900 .border-slate-200 { border-color: rgb(51,65,85) !important; }
+.bg-slate-900 .border-slate-100 { border-color: rgb(30,41,59) !important; }
+.bg-slate-900 .text-slate-700 { color: rgb(203,213,225) !important; }
+.bg-slate-900 .text-slate-600 { color: rgb(148,163,184) !important; }
+.bg-slate-900 .text-slate-800 { color: rgb(226,232,240) !important; }
+
+/* — Violet / Purple — */
+.bg-slate-900 .bg-violet-50  { background-color: rgba(76,29,149,0.28) !important; }
+.bg-slate-900 .border-violet-200 { border-color: rgba(167,139,250,0.22) !important; }
+.bg-slate-900 .text-violet-700 { color: rgb(167,139,250) !important; }
+.bg-slate-900 .text-violet-600 { color: rgb(196,181,253) !important; }
+.bg-slate-900 .text-violet-400 { color: rgb(196,181,253) !important; }
+
+/* — Red — */
+.bg-slate-900 .bg-red-50  { background-color: rgba(127,29,29,0.28) !important; }
+.bg-slate-900 .border-red-200 { border-color: rgba(252,165,165,0.2) !important; }
+.bg-slate-900 .text-red-600 { color: rgb(252,165,165) !important; }
+.bg-slate-900 .text-red-500 { color: rgb(248,113,113) !important; }
+.bg-slate-900 .text-red-400 { color: rgb(248,113,113) !important; }
+
+/* — Orange — */
+.bg-slate-900 .bg-orange-50  { background-color: rgba(124,45,18,0.28) !important; }
+.bg-slate-900 .border-orange-200 { border-color: rgba(253,186,116,0.22) !important; }
+.bg-slate-900 .text-orange-500 { color: rgb(251,146,60) !important; }
+.bg-slate-900 .text-orange-600 { color: rgb(249,115,22) !important; }
+
+/* — Indigo — */
+.bg-slate-900 .bg-indigo-50  { background-color: rgba(49,46,129,0.28) !important; }
+.bg-slate-900 .border-indigo-200 { border-color: rgba(165,180,252,0.22) !important; }
+.bg-slate-900 .text-indigo-700 { color: rgb(129,140,248) !important; }
+.bg-slate-900 .text-indigo-600 { color: rgb(165,180,252) !important; }
+
+/* — Amber — */
+.bg-slate-900 .bg-amber-50  { background-color: rgba(120,53,15,0.28) !important; }
+.bg-slate-900 .border-amber-200 { border-color: rgba(252,211,77,0.22) !important; }
+.bg-slate-900 .text-amber-700 { color: rgb(252,211,77) !important; }
+.bg-slate-900 .text-amber-600 { color: rgb(251,191,36) !important; }
+
+/* — Pink — */
+.bg-slate-900 .bg-pink-50  { background-color: rgba(131,24,67,0.28) !important; }
+.bg-slate-900 .border-pink-200 { border-color: rgba(249,168,212,0.22) !important; }
+.bg-slate-900 .text-pink-700 { color: rgb(249,168,212) !important; }
+.bg-slate-900 .text-pink-600 { color: rgb(244,114,182) !important; }
+
+/* — Teal — */
+.bg-slate-900 .bg-teal-50  { background-color: rgba(19,78,74,0.28) !important; }
+.bg-slate-900 .border-teal-200 { border-color: rgba(94,234,212,0.22) !important; }
+.bg-slate-900 .text-teal-700 { color: rgb(94,234,212) !important; }
+
+/* Gauge animation */
+.gauge-fill {
+  transition: stroke-dashoffset 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Result card entrance */
+.result-enter-active { transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
+.result-enter-from { opacity: 0; transform: scale(0.9) translateY(10px); }
+.result-leave-active { transition: all 0.2s ease; }
+.result-leave-to { opacity: 0; transform: scale(0.95); }
+
+/* Fade */
+.fade-enter-active, .fade-leave-active { transition: opacity 0.25s ease; }
+.fade-enter-from, .fade-leave-to { opacity: 0; }
+
+/* Ad slot */
+.ad-slot {
+  @apply rounded-2xl bg-slate-900 border-2 border-dashed border-slate-700 flex items-center justify-center text-slate-600 text-sm font-medium;
+}
