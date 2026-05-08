@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
+  <url>
+    <loc>https://calcgem.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2026-05-08</lastmod>
+  </url>
+
+  <!-- Health & Fitness -->
+  <url><loc>https://calcgem.com/bmi</loc><changefreq>monthly</changefreq><priority>0.9</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/calories</loc><changefreq>monthly</changefreq><priority>0.9</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/ideal-weight</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/body-fat</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/heart-rate</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/water-intake</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/bmr</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/macros</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/protein</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/one-rep-max</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/running-pace</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/sleep</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2026-05-08</lastmod></url>
+
+  <!-- Pregnancy & Fertility -->
+  <url><loc>https://calcgem.com/due-date</loc><changefreq>monthly</changefreq><priority>0.9</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/pregnancy-week</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/ovulation</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/conception-date</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/baby-weight</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2026-05-08</lastmod></url>
+
+  <!-- Dates & Time -->
+  <url><loc>https://calcgem.com/age</loc><changefreq>monthly</changefreq><priority>0.9</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/days-between</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/work-days</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/time-duration</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/countdown</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2026-05-08</lastmod></url>
+
+  <!-- Finance -->
+  <url><loc>https://calcgem.com/tax</loc><changefreq>monthly</changefreq><priority>0.9</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/mortgage</loc><changefreq>monthly</changefreq><priority>0.9</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/loan</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/compound-interest</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/savings</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/retirement</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/roi</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/tip</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/discount</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/vat</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/salary</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/currency</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-08</lastmod></url>
+
+  <!-- Info pages -->
+  <url><loc>https://calcgem.com/about</loc><changefreq>monthly</changefreq><priority>0.5</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority><lastmod>2026-05-08</lastmod></url>
+  <url><loc>https://calcgem.com/privacy-policy</loc><changefreq>monthly</changefreq><priority>0.4</priority><lastmod>2026-05-08</lastmod></url>
+
+</urlset>
